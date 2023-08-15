@@ -1,69 +1,65 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  background-color: #000000; /* added this line to change the body background to black */
+  color: #008000; /* added this line to change the body text to green */
 }
 
 textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
-  border-left: 1px solid black;
+  color: #008000; /* changed this line to make the textarea text green */
+  border-left: 1px solid #008000; /* changed this line to make the textarea border green */
   padding: 10px;
 }
 
 .description {
   white-space: pre-wrap;
+  color: #008000; /* added this line to change the description text to green */
 }
 
 .time-block {
   border-radius: 15px;
+  background-color: #000000; /* added this line to change the time-block background to black */
+  color: #008000; /* added this line to change the time-block text to green */
 }
 
 .row {
-  border-top: 1px solid white;
+  border-top: 1px solid #008000; /* changed this line to make the row border green */
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  background-color: #000000; /* changed this line to make the hour background black */
+  color: #008000; /* changed this line to make the hour text green */
+  border-top: 1px dashed #008000; /* changed this line to make the hour border green */
 }
 
-.past {
-  background-color: #d3d3d3;
-  color: white;
-}
-
-.present {
-  background-color: #ff6961;
-  color: white;
-}
-
-.future {
-  background-color: #77dd77;
-  color: white;
+.past, .present, .future {
+  background-color: #000000; /* changed these lines to make the past, present, and future backgrounds black */
+  color: #008000; /* changed these lines to make the past, present, and future text green */
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 1px solid #008000; /* changed this line to make the saveBtn border green */
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
+  background-color: #008000; /* changed this line to make the saveBtn background green */
+  color: #000000; /* changed this line to make the saveBtn text black */
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+  color: #008000; /* added this line to change the saveBtn hover text to green */
 }
 
 .notification {
   display: none;
   padding-bottom: 10px;
-  color: black;
+  color: #008000; /* added this line to change the notification text to green */
 }
 
 .show {
   display: block;
-}
+  color: #008000; /* added this line to change the show text to green */
